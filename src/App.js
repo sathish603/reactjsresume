@@ -9,6 +9,8 @@ import Footer from './components/footer/footer';
 
 import './App.css';
 
+import resumeData from './resumeData';
+
 class App extends Component {
   render() {
     return (
@@ -20,6 +22,8 @@ class App extends Component {
         <Testimonials />
         <ContactUs />
         <Footer />
+        <Header resumeData={resumeData}/>
+
       </div>
     );
   }
