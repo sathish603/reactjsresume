@@ -8,7 +8,7 @@ export default class Header extends Component {
                 <header id="home">
                     <nav id="nav-wrap">
                         <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-                        <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+                        <a className="mobile-btn" href="www.google.com" title="Hide navigation">Hide navigation</a>
                         <ul id="nav" className="nav">
                         <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
                         <li><a className="smoothscroll" href="#about">About</a></li>
@@ -26,13 +26,13 @@ export default class Header extends Component {
                             and learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
                         <hr />
                         <ul className="social">
-                            <li><a href="#"><i className="fa fa-facebook" /></a></li>
-                            <li><a href="#"><i className="fa fa-twitter" /></a></li>
-                            <li><a href="#"><i className="fa fa-google-plus" /></a></li>
-                            <li><a href="#"><i className="fa fa-linkedin" /></a></li>
-                            <li><a href="#"><i className="fa fa-instagram" /></a></li>
-                            <li><a href="#"><i className="fa fa-dribbble" /></a></li>
-                            <li><a href="#"><i className="fa fa-skype" /></a></li>
+                            <li><a href="www.google.com"><i className="fa fa-facebook" /></a></li>
+                            <li><a href="www.google.com"><i className="fa fa-twitter" /></a></li>
+                            <li><a href="www.google.com"><i className="fa fa-google-plus" /></a></li>
+                            <li><a href="www.google.com"><i className="fa fa-linkedin" /></a></li>
+                            <li><a href="www.google.com"><i className="fa fa-instagram" /></a></li>
+                            <li><a href="www.google.com"><i className="fa fa-dribbble" /></a></li>
+                            <li><a href="www.google.com"><i className="fa fa-skype" /></a></li>
                         </ul>
                         </div>
                     </div>

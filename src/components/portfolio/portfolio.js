@@ -13,7 +13,7 @@ export default class Portfolio extends Component {
                         <div className="columns portfolio-item">
                         <div className="item-wrap">
                             <a href="#modal-01" title>
-                            <img alt src="images/portfolio/coffee.jpg" />
+                            <img alt="coffee" src="images/portfolio/coffee.jpg" />
                             <div className="overlay">
                                 <div className="portfolio-item-meta">
                                 <h5>Coffee</h5>
@@ -27,7 +27,7 @@ export default class Portfolio extends Component {
                         <div className="columns portfolio-item">
                         <div className="item-wrap">
                             <a href="#modal-02" title>
-                            <img alt src="images/portfolio/console.jpg" />
+                            <img alt="console" src="images/portfolio/console.jpg" />
                             <div className="overlay">
                                 <div className="portfolio-item-meta">
                                 <h5>Console</h5>
@@ -41,7 +41,7 @@ export default class Portfolio extends Component {
                         <div className="columns portfolio-item">
                         <div className="item-wrap">
                             <a href="#modal-03" title>
-                            <img alt src="images/portfolio/judah.jpg" />
+                            <img alt="judha" src="images/portfolio/judah.jpg" />
                             <div className="overlay">
                                 <div className="portfolio-item-meta">
                                 <h5>Judah</h5>
@@ -55,7 +55,7 @@ export default class Portfolio extends Component {
                         <div className="columns portfolio-item">
                         <div className="item-wrap">
                             <a href="#modal-04" title>
-                            <img alt src="images/portfolio/into-the-light.jpg" />
+                            <img alt="light" src="images/portfolio/into-the-light.jpg" />
                             <div className="overlay">
                                 <div className="portfolio-item-meta">
                                 <h5>Into The Light</h5>

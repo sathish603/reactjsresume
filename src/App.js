@@ -15,14 +15,13 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
+        <Header resumeData={resumeData}/>
         <About />
         <Resume />
         <Portfolio />
         <Testimonials />
         <ContactUs />
         <Footer />
-        <Header resumeData={resumeData}/>
 
       </div>
     );

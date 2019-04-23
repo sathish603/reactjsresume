@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+// import React, {Component} from 'react';
 
 let resumeData = {
     "imagebaseurl":"http://localhost:3000/",
