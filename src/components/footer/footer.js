@@ -14,7 +14,7 @@ export default class Footer extends Component {
                             <li><a href="https://www.instagram.com/sathish603/"><i className="fa fa-instagram" /></a></li>
                             <li><a href="https://join.skype.com/invite/SQ5qikG2ZrHo"><i className="fa fa-skype" /></a></li>
                         </ul>
-                        </div>
+x                        </div>
                         <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open" /></a></div>
                     </div>
                 </footer> {/* Footer End*/}
