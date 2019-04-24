@@ -5,34 +5,29 @@ export default class About extends Component {
       return (
             <React.Fragment>
                 <section id="about">
-                    `<div className="row">
+                    <div className="row">
                     <div className="three columns">
-                        <img className="profile-pic" src="images/profilepic.jpg" alt="profilepic" />
+                        <img className="profile-pic" src="/images/profilepic.jpg" alt="profilepic" />
                     </div>
                     <div className="nine columns main-col">
                         <h2>About Me</h2>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                        eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                        voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-                        voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-                        sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-                        Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.
+                        <p> I'm a Front End Developer with 5 years of experience in field of web development. Self motivated and learn upcoming technologies. Seeking for the challenging job that could enhance my knowledge and trigger my creative thinking and applying them in business advancement. Always ready to contribute my hard work and skills to the growth and success of an organization. My hobbies are photography and listening to music. 
                         </p>
                         <div className="row">
                         <div className="columns contact-details">
                             <h2>Contact Details</h2>
                             <p className="address">
-                            <span>Jonathan Doe</span><br />
-                            <span>1600 Amphitheatre Parkway<br />
-                                Mountain View, CA 94043 US
+                            <span>N Satish</span><br />
+                            <span>385 Thilkavathy Illam,<br />
+                                Davis Dale, Ooty-643001, The Nilgiris.
                             </span><br />
-                            <span>(123)456-7890</span><br />
-                            <span>anyone@website.com</span>
+                            <span>+91 9843485591</span><br />
+                            <span>sathishnagarajan603@gmail.com</span>
                             </p>
                         </div>
                         <div className="columns download">
                             <p>
-                            <a href="www.google.com" className="button"><i className="fa fa-download" />Download Resume</a>
+                            <a href="http://localhost:3000/images/satish-resume23042019.pdf" className="button"><i className="fa fa-download" />Download Resume</a>
                             </p>
                         </div>
                         </div> {/* end row */}

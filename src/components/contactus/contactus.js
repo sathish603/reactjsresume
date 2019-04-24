@@ -12,9 +12,7 @@ export default class ContactUs extends Component {
                         <h1><span>Get In Touch.</span></h1>
                         </div>
                         <div className="ten columns">
-                        <p className="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                            voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+                        <p className="lead">Feel Free to contact me. Please fill in the below form and I will get back to you soon. 
                         </p>
                         </div>
                     </div>
@@ -58,32 +56,11 @@ export default class ContactUs extends Component {
                         <div className="widget widget_contact">
                             <h4>Address and Phone</h4>
                             <p className="address">
-                            Jonathan Doe<br />
-                            1600 Amphitheatre Parkway <br />
-                            Mountain View, CA 94043 US<br />
-                            <span>(123) 456-7890</span>
+                            N Satish<br />
+                            385, Thilakavathy Illam <br />
+                            Davis Dale, Ooty-643001, The Nilgiris<br />
+                            <span>+91 9843485591</span>
                             </p>
-                        </div>
-                        <div className="widget widget_tweets">
-                            <h4 className="widget-title">Latest Tweets</h4>
-                            <ul id="twitter">
-                            <li>
-                                <span>
-                                This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                                Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
-                                <a href="www.google.com">http://t.co/CGIrdxIlI3</a>
-                                </span>
-                                <b><a href="www.google.com">2 Days Ago</a></b>
-                            </li>
-                            <li>
-                                <span>
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                                eaque ipsa quae ab illo inventore veritatis et quasi
-                                <a href="www.google.com">http://t.co/CGIrdxIlI3</a>
-                                </span>
-                                <b><a href="www.google.com">3 Days Ago</a></b>
-                            </li>
-                            </ul>
                         </div>
                         </aside>
                     </div>

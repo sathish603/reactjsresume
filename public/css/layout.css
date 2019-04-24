@@ -1,10 +1,4 @@
 /*
-=====================================================================
-*   Ceevee v1.0 Layout Stylesheet
-*   url: styleshout.com
-*   03-18-2014
-=====================================================================
-
    TOC:
    a. General Styles
    b. Header Styles
@@ -108,7 +102,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: #11ABB0; }
+header .social li a:hover { color: #46a0ff; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -130,7 +124,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #11ABB0; }
+header .scrolldown a:hover { color: #46a0ff; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -192,7 +186,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { color: #edff5a; }
 
 
 /* ------------------------------------------------------------------ */
@@ -200,14 +194,14 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+   background: #111;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
 }
 
 #about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #11ABB0; }
+#about a:hover, #about a:focus { color: #46a0ff; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
@@ -255,7 +249,7 @@ ul#nav li.current a { color: #F06000; }
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #11ABB0; }
+#resume a, #resume a:visited  { color: #46a0ff; }
 #resume a:hover, #resume a:focus { color: #313131; }
 
 #resume h1 {
@@ -264,7 +258,7 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 1px;
 }
 #resume h1 span {
-   border-bottom: 3px solid #11ABB0;
+   border-bottom: 3px solid #46a0ff;
    padding-bottom: 6px;
 }
 #resume h3 {
@@ -339,17 +333,27 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .photoshop {
-  	width: 60%;
+  	width: 80%;
   	-moz-animation: photoshop 2s ease;
   	-webkit-animation: photoshop 2s ease;
 }
 .illustrator {
-  	width: 55%;
+  	width: 30%;
   	-moz-animation: illustrator 2s ease;
   	-webkit-animation: illustrator 2s ease;
 }
+.bootstrap {
+   width: 80%;
+   -moz-animation: bootstrap 2s ease;
+   -webkit-animation: bootstrap 2s ease;
+}
+.javascript {
+   width: 60%;
+   -moz-animation: javascript 2s ease;
+   -webkit-animation: javascript 2s ease;
+}
 .wordpress {
-  	width: 50%;
+  	width: 70%;
   	-moz-animation: wordpress 2s ease;
   	-webkit-animation: wordpress 2s ease;
 }
@@ -359,17 +363,22 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: css 2s ease;
 }
 .html5 {
-  	width: 80%;
+  	width: 95%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
 .jquery {
-  	width: 50%;
+  	width: 60%;
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
 }
+.react {
+   width: 30%;
+   -moz-animation: react 2s ease;
+   -webkit-animation: react 2s ease;
+}
 
-@-moz-keyframes photoshop {
+/* @-moz-keyframes photoshop {
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
@@ -392,19 +401,19 @@ ul#nav li.current a { color: #F06000; }
 @-moz-keyframes jquery {
   0%   { width: 0px;  }
   100% { width: 50%;  }
-}
+} */
 
 @-webkit-keyframes photoshop {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 80%;  }
 }
 @-webkit-keyframes illustrator {
   0%   { width: 0px;  }
-  100% { width: 55%;  }
+  100% { width: 30%;  }
 }
 @-webkit-keyframes wordpress {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 70%;  }
 }
 @-webkit-keyframes css {
   0%   { width: 0px;  }
@@ -412,12 +421,24 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes html5 {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 95%;  }
 }
 @-webkit-keyframes jquery {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 60%;  }
 }
+@-webkit-keyframes bootstrap {
+   0%   { width: 0px;  }
+   100% { width: 80%;  }
+ }
+ @-webkit-keyframes javascript {
+   0%   { width: 0px;  }
+   100% { width: 60%;  }
+ }
+ @-webkit-keyframes react {
+   0%   { width: 0px;  }
+   100% { width: 30%;  }
+ }
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
@@ -808,7 +829,7 @@ call-to-action .button {
 }
 #contact .section-head { margin-bottom: 42px; }
 
-#contact a, #contact a:visited  { color: #11ABB0; }
+#contact a, #contact a:visited  { color: #46a0ff; }
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
@@ -869,7 +890,7 @@ call-to-action .button {
 #contact textarea:focus,
 #contact select:focus {
 	color: #fff;
-	background-color: #11ABB0;
+	background-color: #46a0ff;
 }
 #contact button.submit {
 	text-transform: uppercase;
@@ -888,7 +909,7 @@ call-to-action .button {
 	background: #fff;
 }
 #contact span.required {
-	color: #11ABB0;
+	color: #46a0ff;
 	font-size: 13px;
 }
 #message-warning, #message-success {
@@ -900,7 +921,7 @@ call-to-action .button {
    margin-left: 26%;
 }
 #message-warning { color: #D72828; }
-#message-success { color: #11ABB0; }
+#message-success { color: #46a0ff; }
 
 #message-warning i,
 #message-success i {

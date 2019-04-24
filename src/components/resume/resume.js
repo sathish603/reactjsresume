@@ -14,26 +14,20 @@ export default class Resume extends Component {
                     <div className="nine columns main-col">
                     <div className="row item">
                         <div className="twelve columns">
-                        <h3>University of Life</h3>
-                        <p className="info">Master in Graphic Design <span>•</span> <em className="date">April 2007</em></p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                            ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                            Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
-                        </p>
+                        <h3>Master of Computer Applications</h3>
+                        <p className="info">Computer Application <span>•</span> <em className="date">April 2010</em></p>
                         </div>
                     </div> {/* item end */}
                     <div className="row item">
                         <div className="twelve columns">
-                        <h3>School of Cool Designers</h3>
-                        <p className="info">B.A. Degree in Graphic Design <span>•</span> <em className="date">March 2003</em></p>
-                        <p>
-                            This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                            Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                            nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
-                            ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
-                        </p>
+                        <h3>Diploma In Web Applications</h3>
+                        <p className="info">Web Application <span>•</span> <em className="date">April 2010</em></p>                        
+                        </div>
+                    </div> {/* item end */}
+                    <div className="row item">
+                        <div className="twelve columns">
+                        <h3>BSc Computer Science</h3>
+                        <p className="info">Computer Science <span>•</span> <em className="date">April 2007</em></p>                        
                         </div>
                     </div> {/* item end */}
                     </div> {/* main-col end */}
@@ -47,25 +41,37 @@ export default class Resume extends Component {
                     <div className="nine columns main-col">
                     <div className="row item">
                         <div className="twelve columns">
-                        <h3>Awesome Design Studio</h3>
-                        <p className="info">Senior UX Designer <span>•</span> <em className="date">March 2010 - Present</em></p>
+                        <h3>G2 Technology Solutions</h3>
+                        <p className="info">Web Designer <span>•</span> <em className="date">October 2018 - April 2019</em></p>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                            ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                            Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
+                        Converting PSDs to HTML markup. Converting HTML to Wordpress theme and install necessary plugins. Working with Jquery plugins and animations. Optimizing and maintain existing websites. Converting normal websites into responsive design website.
                         </p>
                         </div>
                     </div> {/* item end */}
                     <div className="row item">
                         <div className="twelve columns">
-                        <h3>Super Cool Studio</h3>
-                        <p className="info">UX Designer <span>•</span> <em className="date">March 2007 - February 2010</em></p>
+                        <h3>DCIS (Dot Com Solutions India)</h3>
+                        <p className="info">Front End Engineer <span>•</span> <em className="date">January 2014 - May 2018</em></p>
                         <p>
-                            This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                            Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                            nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
-                            ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
+                        Focus on Designing, Coding, Testing Cross Browser Compatibility web sites. Experience in HTML, CSS, JavaScript, Photoshop, Bootstrap, Watson Campaign (SilverPop). Integrating customized themes in Wordpress. Converting websites into responsive design. Worked closely with Designers to ensure sites were true to the original mockups, incorporated any valuable feedback that arose during implementation, and made for the best user experience possible. Optimization and Maintenance of existing websites. Converting PSD to HTML pages. Validate pages with W3C coding standards. Creating wireframes for web page, emails and landing pages. Coding Responsive Email Templates and landing pages to International standards for top immigration sites, Developed an email automation workflow. Uploading Email templates to Silverpop and handling emails. Coding Email Templates compatible with more than 40 clients.
+                        </p>
+                        </div>
+                    </div> {/* item end */}
+                    <div className="row item">
+                        <div className="twelve columns">
+                        <h3>SSI Educations</h3>
+                        <p className="info">Technical Trainer <span>•</span> <em className="date">June 2012 - September 2013</em></p>
+                        <p>
+                        Prepare training material (presentations, worksheets etc.) Observe and evaluate results of trainee. Conducting machine test. R&amp;D on new web technologies. Teach and evaluate new technical trainers.
+                        </p>
+                        </div>
+                    </div> {/* item end */}
+                    <div className="row item">
+                        <div className="twelve columns">
+                        <h3>C Cubed Solutions</h3>
+                        <p className="info">Technical Support Representative <span>•</span> <em className="date">May 2011 - February 2012</em></p>
+                        <p>
+                        Focus on providing online technical support for Microsoft products and handling all persistent cases. Responsible for maintaining excellent working relationship with customers, sales and troubleshooting team. Worked independently and under pressure. Responsible for providing technical support such as printer issues, software issues, email issues, login issues. Provide technical support remotely. Responsible for other duties as assigned.
                         </p>
                         </div>
                     </div> {/* item end */}
@@ -78,19 +84,19 @@ export default class Resume extends Component {
                     <h1><span>Skills</span></h1>
                     </div>
                     <div className="nine columns main-col">
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                        eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                        voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-                        voluptatem sequi nesciunt.
+                    <p>Good team player, Professional in creativity, Willing to learn more, Supporting Team members, Good Communication Skill.
                     </p>
                     <div className="bars">
                         <ul className="skills">
                         <li><span className="bar-expand photoshop" /><em>Photoshop</em></li>
-                        <li><span className="bar-expand illustrator" /><em>Illustrator</em></li>
-                        <li><span className="bar-expand wordpress" /><em>Wordpress</em></li>
+                        <li><span className="bar-expand illustrator" /><em>Illustrator</em></li>                        <li><span className="bar-expand html5" /><em>HTML5</em></li>
                         <li><span className="bar-expand css" /><em>CSS</em></li>
-                        <li><span className="bar-expand html5" /><em>HTML5</em></li>
+                        <li><span className="bar-expand bootstrap" /><em>Bootstrap</em></li>                        
+                        <li><span className="bar-expand javascript" /><em>JavaScript</em></li>
                         <li><span className="bar-expand jquery" /><em>jQuery</em></li>
+                        <li><span className="bar-expand wordpress" /><em>Wordpress</em></li>
+                        <li><span className="bar-expand react" /><em>React</em></li>
+
                         </ul>
                     </div>{/* end skill-bars */}
                     </div> {/* main-col end */}
